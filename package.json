@@ -64,7 +64,8 @@
   "scripts": {
     "start": "ts-node scripts/start.ts",
     "build": "ts-node scripts/build.ts",
-    "deploy": "npm run build && ts-node scripts/publish.ts"
+    "publish": "ts-node scripts/publish.ts",
+    "deploy": "npm run build && npm run publish"
   },
   "eslintConfig": {
     "extends": [
