@@ -1,0 +1,87 @@
+{
+  "name": "homework",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.21.0",
+    "moment": "^2.29.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/autoprefixer": "^9.x",
+    "@types/axios": "^0.14.0",
+    "@types/fs-extra": "^8.1.0",
+    "@types/glob": "^7.1.4",
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/mini-css-extract-plugin": "^2.3.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/rimraf": "^3.0.2",
+    "@types/semver": "^7.3.4",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.1.0",
+    "autoprefixer": "^9.x",
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "commander": "^6.1.0",
+    "css-loader": "^5.0.0",
+    "css-minimizer-webpack-plugin": "^1.2.x",
+    "execa": "^4.0.3",
+    "file-loader": "^5.0.2",
+    "fs-extra": "^7.0.1",
+    "get-port": "^5.1.1",
+    "glob": "^7.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "monaco-editor-webpack-plugin": "^4.0.0",
+    "postcss-loader": "^3.x",
+    "raw-loader": "^4.0.0",
+    "react-jss": "^10.4.0",
+    "react-monaco-editor": "^0.43.0",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.5",
+    "ts-loader": "^8.0.5",
+    "ts-node": "^10.5.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.x",
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "scripts": {
+    "start": "ts-node scripts/start.ts",
+    "build": "ts-node scripts/build.ts",
+    "deploy": "npm run build && ts-node scripts/publish.ts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+#canvas {
+  height: 26px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.login-block {
+  width: 440px;
+  height: 400px;
+  background-color: beige;
+  padding: 30px 40px 40px 40px;
+}
+h1 {
+  text-align: center;
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 36px;
+}
+.ant-input-affix-wrapper {
+  margin-bottom: 20px;
+}
+.login-btn {
+  width: 360px;
+}
+.querylist {
+  padding: 20px;
+}
+.queryform {
+  margin-bottom: 20px;
+}
+.query-btn {
+  width: 80px;
+}
