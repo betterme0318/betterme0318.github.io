@@ -2,10 +2,6 @@ import webpack from 'webpack';
 import WebpackDevServer from 'webpack-dev-server';
 import getConfig from './webpack/config';
 import getPort from 'get-port';
-import Koa from 'koa';
-import Router from 'koa-router';
-import chalk from 'chalk';
-import fs from 'fs-extra';
 import path from 'path';
 import { getBuilderConfigs } from './webpack/config';
 

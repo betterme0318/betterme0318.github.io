@@ -24,8 +24,8 @@ const draw = (show_num) => {
     const txt = aCode[j]; //得到随机的一个内容
     show_num[i] = txt.toLowerCase(); // 依次把取得的内容放到数组里面
     const x = 10 + i * 20; //文字在canvas上的x坐标
-    const y = 20 + Math.random() * 8; //文字在canvas上的y坐标
-    context.font = "bold 23px 微软雅黑";
+    const y = 16 + Math.random() * 8; //文字在canvas上的y坐标
+    context.font = "bold 22px 微软雅黑";
 
     context.translate(x, y);
     context.rotate(deg);
